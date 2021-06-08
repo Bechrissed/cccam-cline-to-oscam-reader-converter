@@ -1,0 +1,25 @@
+:root {
+    --primary: rebeccapurple;
+    --secondary: violet;
+    --tertiary: #8ac3af;
+    --black: #333;
+    --white: #fff;
+    --neutral-1: #fcfcfc;
+    --neutral-2: #ddd;
+    --neutral-3: #ccc;
+    --neutral-4: #999;
+    --neutral-5: #666;
+}
+html {
+    box-sizing: border-box;
+}
+
+*,*:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    line-height:1.5;
+    font-size: 100%;
+}
+

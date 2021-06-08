@@ -1,0 +1,106 @@
+body {
+     background: #333 url('/img/bg.png') repeat;
+}
+
+.converter {
+     position: relative;
+}
+
+.ccc-textarea {
+     overflow: 'hidden';
+     word-wrap: break-word;
+     resize: none;
+     height: 160px;
+}
+
+.ccc-paper {
+     color: #fff;
+     font-size: 20px;
+}
+
+.ccc-margin {
+     margin-left: 12px;
+     margin-bottom: 20px;
+     -webkit-user-select: none;
+     -moz-user-select: none;
+     -ms-user-select: none;
+     -o-user-select: none;
+     user-select: none;
+}
+
+.ccc-text {
+     width: 100%;
+     overflow: hidden;
+     background-color: #fff;
+     color: #222;
+     font-family: Courier, monospace;
+     font-weight: normal;
+     font-size: 20px;
+     resize: none;
+     line-height: 40px;
+     padding-left: 100px;
+     padding-right: 10px;
+     padding-top: 45px;
+     padding-bottom: 34px;
+     background-image: url('/img/lines.png'), url('/img/paper.png');
+     background-repeat: repeat-y, repeat;
+     -webkit-border-radius: 12px;
+     border-radius: 12px;
+     -webkit-box-shadow: 0px 2px 14px #000;
+     box-shadow: 0px 2px 14px #000;
+     border-top: 1px solid #fff;
+     border-bottom: 1px solid #fff;
+     height: 100%;
+     min-height: 600px;
+}
+
+.ccc-textOscam {
+     min-height: 6000px;
+}
+
+.ccc-title {
+     background-color: transparent;
+     border-bottom: 3px solid #fff;
+     color: #fff;
+     font-size: 20px;
+     font-family: Courier, monospace;
+     height: 28px;
+     font-weight: bold;
+     width: 100%;
+}
+.ccc-button {
+     display: block;
+     cursor: pointer;
+     margin: 20px auto;
+     height: 100px;
+     width: 100px;
+     padding: 24px;
+     border-radius: 8px;
+     box-shadow: 0px 2px 14px #000;
+     background-color: transparent;
+     background-image: url('/img/convert.png');
+     background-repeat: no-repeat;
+     background-size: cover;
+}
+
+.ccc-button:active {
+     zoom: 1;
+     filter: alpha(opacity=80);
+     opacity: 0.8;
+}
+
+.ccc-button:focus {
+     zoom: 1;
+     filter: alpha(opacity=80);
+     opacity: 0.8;
+}
+
+.ccc-wrapper {
+     width: 100%;
+     max-width: 700px;
+     height: auto;
+     margin-left: auto;
+     margin-right: auto;
+     margin-top: 24px;
+     margin-bottom: 100px;
+}

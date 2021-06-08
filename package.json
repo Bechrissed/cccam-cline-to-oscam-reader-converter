@@ -1,0 +1,44 @@
+{
+  "name": "cccam-cline-to-oscam-reader-converter",
+  "version": "1.0.0",
+  "description": "Cccam C-line to Oscam reader converter",
+  "repository": "git@github.com:Bechrissed/cccam-cline-to-oscam-reader-converter.git",
+  "author": "Chris Koster <chris@codecapi.nl>",
+  "license": "MIT",
+  "private": false,
+  "main": "index.js",
+  "scripts": {
+    "start": "snowpack dev --polyfill-node",
+    "build": "snowpack build --polyfill-node",
+    "lint": "eslint './src/**.*.jsx' --fix",
+    "pretty": "npx prettier './src/**/*.*' --write"
+  },
+  "keywords": [
+    "cline",
+    "oscam",
+    "config",
+    "converter",
+    "reader",
+    "parser"
+  ],
+  "devDependencies": {
+    "@snowpack/app-scripts-react": "^2.0.1",
+    "@snowpack/plugin-postcss": "^1.2.2",
+    "@snowpack/plugin-react-refresh": "^2.4.2",
+    "autoprefixer": "^10.2.5",
+    "cssnano": "^5.0.1",
+    "eslint": "^7.24.0",
+    "eslint-config-prettier": "^8.2.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "postcss": "^8.2.10",
+    "postcss-cli": "^8.3.1",
+    "postcss-preset-env": "^6.7.0",
+    "prettier": "^2.2.1",
+    "snowpack": "^3.3.5"
+  },
+  "dependencies": {
+    "@garystorey/cssclass": "^1.1.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}
