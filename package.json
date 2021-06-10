@@ -10,7 +10,7 @@
      "main": "index.js",
      "scripts": {
           "predeploy": "yarn run build",
-          "deploy": "gh-pages -d build",
+          "deploy": "builddeploy -d build",
           "start": "snowpack dev --polyfill-node",
           "build": "snowpack build --polyfill-node",
           "lint": "eslint './src/**.*.jsx' --fix",
